@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<ClCompile Include="src\ofApp.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\main.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxGui\src\ofxBaseGui.cpp">
+			<Filter>addons\ofxGui\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxGui\src\ofxButton.cpp">
+			<Filter>addons\ofxGui\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxGui\src\ofxGuiGroup.cpp">
+			<Filter>addons\ofxGui\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxGui\src\ofxLabel.cpp">
+			<Filter>addons\ofxGui\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxGui\src\ofxPanel.cpp">
+			<Filter>addons\ofxGui\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxGui\src\ofxSlider.cpp">
+			<Filter>addons\ofxGui\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxGui\src\ofxSliderGroup.cpp">
+			<Filter>addons\ofxGui\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxGui\src\ofxToggle.cpp">
+			<Filter>addons\ofxGui\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxKinectCommonBridge\src\ofxKinectCommonBridge.cpp">
+			<Filter>addons\ofxKinectCommonBridge\src</Filter>
+		</ClCompile>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="src">
+			<UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons">
+			<UniqueIdentifier>{71834F65-F3A9-211E-73B8-DC85}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxGui">
+			<UniqueIdentifier>{4F2A59AF-5F4E-704B-D067-EC13}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxGui\src">
+			<UniqueIdentifier>{645E9533-4DCD-6179-1CDF-CB65}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxKinectCommonBridge">
+			<UniqueIdentifier>{C749605C-98A3-B486-4B56-9CE4}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxKinectCommonBridge\src">
+			<UniqueIdentifier>{D4E44C3F-AECF-C926-C35D-D496}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxKinectCommonBridge\libs">
+			<UniqueIdentifier>{907DB092-2D6F-F552-622D-7488}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxKinectCommonBridge\libs\KinectCommonBridge">
+			<UniqueIdentifier>{1F742F8B-805C-311C-BEFD-591B}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxKinectCommonBridge\libs\KinectCommonBridge\include">
+			<UniqueIdentifier>{EB8368C2-9593-7054-3E4E-054E}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="src\ofApp.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxGui\src\ofxBaseGui.h">
+			<Filter>addons\ofxGui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxGui\src\ofxButton.h">
+			<Filter>addons\ofxGui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxGui\src\ofxGui.h">
+			<Filter>addons\ofxGui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxGui\src\ofxGuiGroup.h">
+			<Filter>addons\ofxGui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxGui\src\ofxLabel.h">
+			<Filter>addons\ofxGui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxGui\src\ofxPanel.h">
+			<Filter>addons\ofxGui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxGui\src\ofxSlider.h">
+			<Filter>addons\ofxGui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxGui\src\ofxSliderGroup.h">
+			<Filter>addons\ofxGui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxGui\src\ofxToggle.h">
+			<Filter>addons\ofxGui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectCommonBridge\src\ofxKinectCommonBridge.h">
+			<Filter>addons\ofxKinectCommonBridge\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectCommonBridge\libs\KinectCommonBridge\include\KinectCommonBridgeLib.h">
+			<Filter>addons\ofxKinectCommonBridge\libs\KinectCommonBridge\include</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<ResourceCompile Include="icon.rc" />
+	</ItemGroup>
+</Project>

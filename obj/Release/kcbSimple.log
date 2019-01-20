@@ -1,0 +1,170 @@
+﻿Build started 12/13/2018 10:48:36 PM.
+     1>Project "C:\Users\victorbyttebier\Desktop\Installations\orig\apps\myApps\kcbSimple\kcbSimple.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\..\libs\openFrameworks /I..\..\..\libs\openFrameworks\graphics /I..\..\..\libs\openFrameworks\app /I..\..\..\libs\openFrameworks\sound /I..\..\..\libs\openFrameworks\utils /I..\..\..\libs\openFrameworks\communication /I..\..\..\libs\openFrameworks\video /I..\..\..\libs\openFrameworks\types /I..\..\..\libs\openFrameworks\math /I..\..\..\libs\openFrameworks\3d /I..\..\..\libs\openFrameworks\gl /I..\..\..\libs\openFrameworks\events /I..\..\..\libs\glut\include /I..\..\..\libs\rtAudio\include /I..\..\..\libs\quicktime\include /I..\..\..\libs\freetype\include /I..\..\..\libs\freetype\include\freetype2 /I..\..\..\libs\freeImage\include /I..\..\..\libs\fmodex\include /I..\..\..\libs\videoInput\include /I..\..\..\libs\glew\include\ /I..\..\..\libs\glu\include /I..\..\..\libs\tess2\include /I..\..\..\libs\cairo\include\cairo /I..\..\..\libs\poco\include /I..\..\..\libs\glfw\include /I..\..\..\libs\openssl\include /I..\..\..\addons /I..\..\..\addons\ofxGui\libs /I..\..\..\addons\ofxGui\src /I..\..\..\addons\ofxKinectCommonBridge\libs /I..\..\..\addons\ofxKinectCommonBridge\src /I..\..\..\addons\ofxKinectCommonBridge\libs\KinectCommonBridge /I..\..\..\addons\ofxKinectCommonBridge\libs\KinectCommonBridge\include /I..\..\..\addons\ofxKinectCommonBridge\libs\KinectCommonBridge\lib /I..\..\..\addons\ofxKinectCommonBridge\libs\KinectCommonBridge\lib\windows /I..\..\..\addons\ofxKinectCommonBridge\libs\KinectCommonBridge\lib\windows\vs /I..\..\..\addons\ofxKinectCommonBridge\libs\KinectCommonBridge\lib\windows\vs64 /I..\..\..\addons\ofxKinectCommonBridge\libs\KinectCommonBridge\lib\windows\vs64_Speech /I..\..\..\addons\ofxKinectCommonBridge\libs\KinectCommonBridge\lib\windows\vs_Speech /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _CONSOLE /D POCO_STATIC /D CAIRO_WIN32_STATIC_BUILD /D DISABLE_SOME_FLOATING_POINT /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\Release\\" /Fd"obj\Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt src\main.cpp src\ofApp.cpp ..\..\..\addons\ofxGui\src\ofxBaseGui.cpp ..\..\..\addons\ofxGui\src\ofxButton.cpp ..\..\..\addons\ofxGui\src\ofxGuiGroup.cpp ..\..\..\addons\ofxGui\src\ofxLabel.cpp ..\..\..\addons\ofxGui\src\ofxPanel.cpp ..\..\..\addons\ofxGui\src\ofxSlider.cpp ..\..\..\addons\ofxGui\src\ofxSliderGroup.cpp ..\..\..\addons\ofxGui\src\ofxToggle.cpp ..\..\..\addons\ofxKinectCommonBridge\src\ofxKinectCommonBridge.cpp
+         main.cpp
+     1>C:\Users\victorbyttebier\Desktop\Installations\orig\libs\openFrameworks\graphics\ofPixels.h(170): warning C4003: not enough actual parameters for macro 'max'
+     1>C:\Users\victorbyttebier\Desktop\Installations\orig\libs\openFrameworks\graphics\ofPixels.h(171): warning C4003: not enough actual parameters for macro 'max'
+     1>C:\Users\victorbyttebier\Desktop\Installations\orig\libs\poco\include\Poco/StreamConverter.h(126): warning C4250: 'Poco::InputStreamConverter' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>C:\Users\victorbyttebier\Desktop\Installations\orig\libs\poco\include\Poco/StreamConverter.h(144): warning C4250: 'Poco::OutputStreamConverter' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>C:\Users\victorbyttebier\Desktop\Installations\orig\libs\openFrameworks\types\ofParameter.h(157): warning C4003: not enough actual parameters for macro 'min'
+     1>C:\Users\victorbyttebier\Desktop\Installations\orig\libs\openFrameworks\types\ofParameter.h(158): warning C4003: not enough actual parameters for macro 'max'
+         ofApp.cpp
+     1>C:\Users\victorbyttebier\Desktop\Installations\orig\libs\openFrameworks\graphics\ofPixels.h(170): warning C4003: not enough actual parameters for macro 'max'
+     1>C:\Users\victorbyttebier\Desktop\Installations\orig\libs\openFrameworks\graphics\ofPixels.h(171): warning C4003: not enough actual parameters for macro 'max'
+     1>C:\Users\victorbyttebier\Desktop\Installations\orig\libs\poco\include\Poco/StreamConverter.h(126): warning C4250: 'Poco::InputStreamConverter' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>C:\Users\victorbyttebier\Desktop\Installations\orig\libs\poco\include\Poco/StreamConverter.h(144): warning C4250: 'Poco::OutputStreamConverter' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>C:\Users\victorbyttebier\Desktop\Installations\orig\libs\openFrameworks\types\ofParameter.h(157): warning C4003: not enough actual parameters for macro 'min'
+     1>C:\Users\victorbyttebier\Desktop\Installations\orig\libs\openFrameworks\types\ofParameter.h(158): warning C4003: not enough actual parameters for macro 'max'
+         ofxBaseGui.cpp
+     1>C:\Users\victorbyttebier\Desktop\Installations\orig\libs\poco\include\Poco/StreamConverter.h(126): warning C4250: 'Poco::InputStreamConverter' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>C:\Users\victorbyttebier\Desktop\Installations\orig\libs\poco\include\Poco/StreamConverter.h(144): warning C4250: 'Poco::OutputStreamConverter' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+         ofxButton.cpp
+         ofxGuiGroup.cpp
+         ofxLabel.cpp
+         ofxPanel.cpp
+         ofxSlider.cpp
+         ofxSliderGroup.cpp
+         ofxToggle.cpp
+         ofxKinectCommonBridge.cpp
+     1>C:\Users\victorbyttebier\Desktop\Installations\orig\libs\openFrameworks\graphics\ofPixels.h(170): warning C4003: not enough actual parameters for macro 'max'
+     1>C:\Users\victorbyttebier\Desktop\Installations\orig\libs\openFrameworks\graphics\ofPixels.h(171): warning C4003: not enough actual parameters for macro 'max'
+     1>C:\Users\victorbyttebier\Desktop\Installations\orig\libs\poco\include\Poco/StreamConverter.h(126): warning C4250: 'Poco::InputStreamConverter' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>C:\Users\victorbyttebier\Desktop\Installations\orig\libs\poco\include\Poco/StreamConverter.h(144): warning C4250: 'Poco::OutputStreamConverter' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>C:\Users\victorbyttebier\Desktop\Installations\orig\libs\openFrameworks\types\ofParameter.h(157): warning C4003: not enough actual parameters for macro 'min'
+     1>C:\Users\victorbyttebier\Desktop\Installations\orig\libs\openFrameworks\types\ofParameter.h(158): warning C4003: not enough actual parameters for macro 'max'
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"obj\Release\icon.res" icon.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"bin\kcbSimple.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\..\..\libs\glut\lib\vs /LIBPATH:..\..\..\libs\glfw\lib\vs /LIBPATH:..\..\..\libs\rtAudio\lib\vs /LIBPATH:..\..\..\libs\FreeImage\lib\vs /LIBPATH:..\..\..\libs\freetype\lib\vs /LIBPATH:..\..\..\libs\quicktime\lib\vs /LIBPATH:..\..\..\libs\fmodex\lib\vs /LIBPATH:..\..\..\libs\videoInput\lib\vs /LIBPATH:..\..\..\libs\cairo\lib\vs /LIBPATH:..\..\..\libs\glew\lib\vs /LIBPATH:..\..\..\libs\glu\lib\vs /LIBPATH:..\..\..\libs\openssl\lib\vs /LIBPATH:..\..\..\libs\Poco\lib\vs /LIBPATH:..\..\..\libs\tess2\lib\vs /LIBPATH:..\..\..\addons\ofxKinectCommonBridge\libs\KinectCommonBridge\lib\windows\vs "cairo-static.lib" "pixman-1.lib" msimg32.lib OpenGL32.lib GLu32.lib kernel32.lib setupapi.lib Vfw32.lib comctl32.lib glut32.lib rtAudio.lib videoInput.lib libfreetype.lib FreeImage.lib qtmlClient.lib dsound.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib glew32s.lib fmodex_vc.lib glu32.lib crypt32.lib libeay32MD.lib ssleay32MD.lib PocoFoundationmd.lib PocoNetmd.lib PocoUtilmd.lib PocoXMLmd.lib Ws2_32.lib tess2.lib glfw3.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib KinectCommonBridge.lib Kinect10.lib /NODEFAULTLIB:PocoFoundationd.lib /NODEFAULTLIB:atlthunk.lib /NODEFAULTLIB:LIBC.lib /NODEFAULTLIB:LIBCMT /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"bin\kcbSimple.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE:NO /NXCOMPAT /IMPLIB:"bin\kcbSimple.lib" /MACHINE:X86 /SAFESEH obj\Release\icon.res
+         obj\Release\main.obj
+         obj\Release\ofApp.obj
+         obj\Release\ofxBaseGui.obj
+         obj\Release\ofxButton.obj
+         obj\Release\ofxGuiGroup.obj
+         obj\Release\ofxLabel.obj
+         obj\Release\ofxPanel.obj
+         obj\Release\ofxSlider.obj
+         obj\Release\ofxSliderGroup.obj
+         obj\Release\ofxToggle.obj
+         obj\Release\ofxKinectCommonBridge.obj
+         C:\Users\victorbyttebier\Desktop\Installations\orig\libs\openFrameworksCompiled\lib\vs\openframeworksLib.lib
+            Creating library bin\kcbSimple.lib and object bin\kcbSimple.exp
+         LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+         kcbSimple.vcxproj -> C:\Users\victorbyttebier\Desktop\Installations\orig\apps\myApps\kcbSimple\bin\kcbSimple.exe
+       PostBuildEvent:
+         xcopy /e /i /y "C:\Users\victorbyttebier\Desktop\Installations\orig\apps\myApps\kcbSimple\..\..\..\export\vs\*.dll" "C:\Users\victorbyttebier\Desktop\Installations\orig\apps\myApps\kcbSimple\bin"
+         xcopy /e /i /y "..\..\..\addons\ofxKinectCommonBridge\libs\KinectCommonBridge\lib\windows\vs\*.dll" "C:\Users\victorbyttebier\Desktop\Installations\orig\apps\myApps\kcbSimple\bin"
+         xcopy /e /i /y "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Redist\x86\FaceTrackLib.dll" "C:\Users\victorbyttebier\Desktop\Installations\orig\apps\myApps\kcbSimple\bin"
+         xcopy /e /i /y "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Redist\x86\FaceTrackData.dll" "C:\Users\victorbyttebier\Desktop\Installations\orig\apps\myApps\kcbSimple\bin"
+         :VCEnd
+         C:\Users\victorbyttebier\Desktop\Installations\orig\apps\myApps\kcbSimple\..\..\..\export\vs\Assimp32.dll
+         C:\Users\victorbyttebier\Desktop\Installations\orig\apps\myApps\kcbSimple\..\..\..\export\vs\fmodex.dll
+         C:\Users\victorbyttebier\Desktop\Installations\orig\apps\myApps\kcbSimple\..\..\..\export\vs\fmodexL.dll
+         C:\Users\victorbyttebier\Desktop\Installations\orig\apps\myApps\kcbSimple\..\..\..\export\vs\FreeImage.dll
+         C:\Users\victorbyttebier\Desktop\Installations\orig\apps\myApps\kcbSimple\..\..\..\export\vs\FreeType-6.dll
+         C:\Users\victorbyttebier\Desktop\Installations\orig\apps\myApps\kcbSimple\..\..\..\export\vs\glut32.dll
+         C:\Users\victorbyttebier\Desktop\Installations\orig\apps\myApps\kcbSimple\..\..\..\export\vs\libeay32.dll
+         C:\Users\victorbyttebier\Desktop\Installations\orig\apps\myApps\kcbSimple\..\..\..\export\vs\ssleay32.dll
+         C:\Users\victorbyttebier\Desktop\Installations\orig\apps\myApps\kcbSimple\..\..\..\export\vs\Zlib.dll
+         9 File(s) copied
+         ..\..\..\addons\ofxKinectCommonBridge\libs\KinectCommonBridge\lib\windows\vs\KinectCommonBridge.dll
+         1 File(s) copied
+         C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Redist\x86\FaceTrackLib.dll
+         1 File(s) copied
+         C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Redist\x86\FaceTrackData.dll
+         1 File(s) copied
+     1>Done Building Project "C:\Users\victorbyttebier\Desktop\Installations\orig\apps\myApps\kcbSimple\kcbSimple.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:47.31
